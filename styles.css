@@ -1,0 +1,92 @@
+/* Basic reset and layout */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Container for the game */
+.game-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for equation */
+#equation {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Styling for feedback */
+#feedback {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Styling for score and timer */
+#score, #timer {
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Styling for input fields */
+input[type="text"] {
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid #007bff;
+    border-radius: 4px;
+    outline: none;
+}
+
+input[type="text"]:focus {
+    border-color: #0056b3;
+}
+
+/* Styling for buttons */
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#reset-button {
+    margin-top: 20px;
+    background-color: #28a745;
+}
+
+#reset-button:hover {
+    background-color: #218838;
+}
